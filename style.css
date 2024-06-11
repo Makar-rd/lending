@@ -1,0 +1,139 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    
+}
+
+.header {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEFF1;
+    height: 700px;
+}
+
+.header__top__lower {
+    /* background-color: rgb(15, 15, 15); */
+    margin-bottom: 140px;
+}
+
+.header__top__lower1 {
+    /* background-color: rgb(15, 15, 15); */
+    max-width: 1120px;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__top__lower-logo {
+    font-family: "Revalia", sans-serif;
+    font-size: 48px;
+    line-height: 59.52px;
+    color: #34547A;
+
+}
+
+.header__top__lower__nav {
+    display: flex;
+    float: right;
+    font-size: 16px;
+    line-height: 26.25px;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+    list-style-type: none;
+}
+
+.menu li {
+    float: left;
+    padding: 0px 42px 0px 0px;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+
+.menu li:hover {
+    color: #34547A;
+}
+
+.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.header__center {
+    display: flex;
+    justify-content: center;
+}
+
+.header__center-img {
+    margin-right: 131px;
+    display: flex;
+}
+
+.header__center__designandlayout {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__center__designandlayout_h1 h1 {
+    font-size: 48px;
+    line-height: 78.75px;
+    margin: 0;
+}
+
+.header__center__designandlayout_text p {
+    width: 540px;
+    margin: 60px 0 60px 0;
+    color: #727272;
+
+}
+
+.header__center__designandlayout_button button {
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    /* display: flex;
+    justify-content: center; */
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__aboutme-p {
+    width: 540px;
+}
+
+.main__projects {
+    background: #34547A;
+}
+
+.main__projects__all {
+    display: flex;
+}
+
+.main__projects__all-p {
+    color: white;
+    margin-left: 20px;
+}
