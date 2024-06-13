@@ -1,0 +1,80 @@
+main {
+    /* display: flex;
+    justify-content: center; */
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__aboutme-p {
+    width: 540px;
+}
+
+.main__projects__all {
+    display: flex;
+}
+
+.main__projects {
+    background: #34547A;
+    padding: 100px 0 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main__projects__all__object {
+    display: flex;
+    padding-left: 49px;
+}
+
+.main__projects__all__object__p {
+    color: white;
+    margin-left: 20px;
+}
+
+
+.main__mySkills {
+    display: flex;
+    justify-content: center;
+}
+
+.main__mySkills__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__mySkills__list h2 {
+    font-size: 32px;
+    line-height: 37.5px;
+}
+
+.main__mySkills__label {
+    font-size: 16px;
+    margin-bottom: 8px; 
+  }
+  
+  .main__mySkills__bar {
+    width: 445px; 
+    height: 4px;
+    background-color: #e0e0e0;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .main__mySkills__bar-fill {
+    height: 100%;
+    background-color: #34547A;
+    width: 70%; 
+  }
+
+  .main__mySkills-img {
+    margin: 100px 0 100px 150px;
+  }
