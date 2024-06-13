@@ -1,0 +1,17 @@
+.footer {
+    background: #34547A;
+    max-height: 151px;
+}
+
+.footer__nameAndSocial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.footer__nameAndSocial__social {
+    display: flex;
+    gap: 22px;
+}
