@@ -1,10 +1,93 @@
 header {
+    background-color: #EEEFF1;
+    padding: 20px 0;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-family: "Revalia", sans-serif;
+    font-size: 48px;
+    line-height: 59.52px;
+    color: #34547A;
+}
+
+.header__nav__menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header__nav__menu__item {
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.header__nav__menu__item:hover {
+    color: #34547A;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 500px;
+}
+
+.header__content__img {
+    flex: 1;
+    text-align: center;
+}
+
+.header__content__img__item {
+    max-width: 100%;
+    height: auto;
+}
+
+.header__content__text {
+    flex: 1;
+    max-width: 50%;
+    padding: 0 20px;
+}
+
+.header__content__text__title__h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 0 0 20px 0;
+    color: #333;
+}
+
+.header__content__text__subtitle__p {
+    margin: 20px 0;
+    color: #727272;
+    line-height: 1.5;
+}
+
+.header__content__text__button__item {
+    width: 225px;
+    height: 65px;
+
+}
+
+.header__content__text__button__item:hover {
+    background: #25385e;
+}
+/* header {
     min-height: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     background-color: #EEEFF1;
-    height: 113vh;
+    height: 700px;
     padding: 20px 0;
 }
 
@@ -87,18 +170,14 @@ header {
 .header__content__text__button__item {
     width: 225px;
     height: 65px;
-    /* background: #34547A;
-    color: white;
-    cursor: pointer;
-    border: none;
-    font-size: 16px;
-    transition: background 0.3s; */
+  
 }
 
 .header__content__text__button__item:hover {
     background: #25385e;
-}
+} */
 
+/* //////////////////// */
 /* header {
     min-height: 100%;
     overflow: hidden;
