@@ -1,8 +1,6 @@
 .footer {
     background: #34547A;
-    /* max-height: 151px;
-    padding: 50px 0 50px 0; */
-    color: white;
+    color: #ffff;
 }
 
 .footer__nameAndSocial {
@@ -18,9 +16,21 @@
 
 .footer__nameAndSocial__security__p {
     font-size: 13px;
+    color: #ffff;
 }
 
 .footer__nameAndSocial__social {
     display: flex;
     gap: 22px;
+}
+
+/* media */
+@media (min-width: 320px) and (max-width: 1279px) {
+    .footer__nameAndSocial {
+        flex-direction: column;
+    }
+
+    .footer__nameAndSocial__security {
+        text-align: center;
+    }
 }
