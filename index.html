@@ -22,11 +22,21 @@
             </div>
             <nav class="header__nav">
                 <ul class="header__nav__menu">
-                    <li class="header__nav__menu__item">ГЛАВНАЯ</li>
-                    <li class="header__nav__menu__item">ОБ АВТОРЕ</li>
-                    <li class="header__nav__menu__item">РАБОТЫ</li>
-                    <li class="header__nav__menu__item">ПРОЦЕСС</li>
-                    <li class="header__nav__menu__item">КОНТАКТЫ</li>
+                    <li class="header__nav__menu__item">
+                        <a href="#" class="header__nav__menu__item__href">ГЛАВНАЯ</a>
+                    </li>
+                    <li class="header__nav__menu__item">
+                        <a href="#" class="header__nav__menu__item__href">ОБ АВТОРЕ</a>
+                    </li>
+                    <li class="header__nav__menu__item">
+                        <a href="#" class="header__nav__menu__item__href">РАБОТЫ</a>
+                    </li>
+                    <li class="header__nav__menu__item">
+                        <a href="#" class="header__nav__menu__item__href">ПРОЦЕСС</a>
+                    </li>
+                    <li class="header__nav__menu__item">
+                        <a href="#" class="header__nav__menu__item__href">КОНТАКТЫ</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -155,54 +165,53 @@
             <section class="main__gallery">
                     <div class="main__gallery__grid">                       
                         <div class="main__gallery__grid__item">
-                            <img src="assets/img/Rectangle 7.png" alt="image" />
+                            <img src="assets/img/work1.png" alt="image" />
                             <div class="overlay">
                                 <img src="assets/img/glass.svg" alt="glass" class="overlay__icon"/>
                             </div>
                         </div>
                         <div class="main__gallery__grid__item">
-                            <img src="assets/img/Rectangle 7.5.png" alt="image"/>
+                            <img src="assets/img/work2.png" alt="image"/>
                             <div class="overlay">
                                 <img src="assets/img/glass.svg" alt="glass" class="overlay__icon" />
                             </div>
                         </div>
                         <div class="main__gallery__grid__item">
-                            <img src="assets/img/Rectangle 7.png" alt="image"/>
+                            <img src="assets/img/work1.png" alt="image"/>
                             <div class="overlay">
                                 <img src="assets/img/glass.svg" alt="glass" class="overlay__icon"/>
                             </div>
                         </div>
                         <div class="main__gallery__grid__item">
-                            <img src="assets/img/Rectangle 7.5.png" alt="image"/>
+                            <img src="assets/img/work2.png" alt="image"/>
                             <div class="overlay">
                                 <img src="assets/img/glass.svg" alt="glass" class="overlay__icon"/>
                             </div>
                         </div>
                         <div class="main__gallery__grid__item">
-                            <img src="assets/img/Rectangle 7.5.png" alt="image"/>
+                            <img src="assets/img/work2.png" alt="image"/>
                             <div class="overlay">
                                 <img src="assets/img/glass.svg" alt="glass" class="overlay__icon"/>
                             </div>
                         </div>
                         <div class="main__gallery__grid__item">
-                            <img src="assets/img/Rectangle 7.png" alt="image"/>
+                            <img src="assets/img/work1.png" alt="image"/>
                             <div class="overlay">
                                 <img src="assets/img/glass.svg" alt="glass" class="overlay__icon"/>
                             </div>
                         </div>
                         <div class="main__gallery__grid__item">
-                            <img src="assets/img/Rectangle 7.5.png" alt="image"/>
+                            <img src="assets/img/work2.png" alt="image"/>
                             <div class="overlay">
                                 <img src="assets/img/glass.svg" alt="glass" class="overlay__icon"/>
                             </div>
                         </div>
                         <div class="main__gallery__grid__item">
-                            <img src="assets/img/Rectangle 7.png" alt="image"/>
+                            <img src="assets/img/work1.png" alt="image"/>
                             <div class="overlay">
                                 <img src="assets/img/glass.svg" alt="glass" class="overlay__icon"/>
                             </div>
                         </div>
-                        
                     </div>
             </section>
     
@@ -216,20 +225,20 @@
                         </p>
                     </div>
     
-                <form class="main__forms__inputs">
-                    <div class="main__forms__twoInputs">
-                        <div class="main__form__inputs__name">
-                            <input type="text" name="name" id="name" placeholder="Ваше имя" required>
+                    <form class="main__forms__inputs" action="/submit-form" method="post">
+                        <div class="main__forms__twoInputs">
+                            <div class="main__form__inputs__name">
+                                <input type="text" name="name" id="name" placeholder="Ваше имя" required>
+                            </div>
+                            <div class="main__form__inputs__email">
+                                <input type="email" name="email" id="email" placeholder="Ваш email" required>
+                            </div>
                         </div>
-                        <div class="main__form__inputs__email">
-                            <input type="email" name="email" id="email" placeholder="Ваш email" required>
+                        <div class="main__form__inputs__text">
+                            <textarea name="message" id="textarea" placeholder="Сообщение" required></textarea>
                         </div>
-                    </div>
-                    <div class="main__form__inputs__text">
-                        <textarea name="order" id="textarea" placeholder="Сообщение" required></textarea>
-                    </div>
-                    <button type="submit" class="main__form__inputs__button">Отправить</button>
-                </form>
+                        <button type="submit" class="main__form__inputs__button">Отправить</button>
+                    </form>
             </section>
      </main>
 
@@ -237,18 +246,18 @@
     <div class="container">
         <div class="footer__nameAndSocial">
             <div class="footer__nameAndSocial__security">
-                <h3 class="footer__nameAndSocial__security__h3"> Rudakov Makar</h3>
+                <h3 class="footer__nameAndSocial__security__h3">Rudakov Makar</h3>
                 <p class="footer__nameAndSocial__security__p">(с) 2024. Все права защищены.</p>
             </div>
             <div class="footer__nameAndSocial__social">
                 <div class="footer__nameAndSocial__social__icon">
-                    <a href="https://vk.com/"><img src="assets/img/vk.svg" alt="icons vk" ></a>
+                    <a href="https://vk.com/"  target="_ blank"><img src="assets/img/vk.svg" alt="icons vk"></a>
                 </div>
                 <div class="footer__nameAndSocial__social__icon">
-                    <a href="https://vk.com/"><img src="assets/img/vk.svg" alt="icons vk" ></a>
+                    <a href="https://vk.com/"  target="_ blank"><img src="assets/img/vk.svg" alt="icons vk"></a>
                 </div>
                 <div class="footer__nameAndSocial__social__icon">
-                    <a href="https://vk.com/"><img src="assets/img/vk.svg" alt="icons vk" ></a>
+                    <a href="https://vk.com/"  target="_ blank"><img src="assets/img/vk.svg" alt="icons vk"></a>
                 </div>
             </div>
         </div>

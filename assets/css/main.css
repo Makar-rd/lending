@@ -1,236 +1,261 @@
-.main {
-    display: flex;
-    flex-direction: column;
-}
-
-.main__aboutMe {
-    max-width: 540px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    text-align: center;
-    justify-content: center;
-    height: 366px;
-    box-sizing: border-box;
-    padding: 0 20px;
-}
-
-.main__aboutMe__text {
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.main__projects {
-    background: #34547A;
-    display: flex;
-    justify-content: center;
-    height: 250PX;
-    align-items: center;
-}
-
-.main__projects__all {
-    display: flex;
-    gap: 49px
-}
-
-.main__projects__all__object {
-    display: flex;
-}
-
-.main__projects__all__object__p {
-    margin-left: 20px;
-}
-
-.main__projects__all__object__p__text {
-    color: #ffff;
-}
-
-.main__mySkills {
-    display: flex;
-    justify-content: center;
-}
-
-.main__mySkills__list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.main__mySkills__item__label {
-    font-size: 16px;
+.main { 
+    display: flex; 
+    flex-direction: column; 
+} 
+ 
+.main__aboutMe { 
+    max-width: 540px; 
+    display: flex; 
+    flex-direction: column; 
+    margin: 0 auto; 
+    text-align: center; 
+    justify-content: center; 
+    height: 366px; 
+    box-sizing: border-box; 
+    padding: 0 20px; 
+} 
+ 
+.main__aboutMe__text { 
+    width: 100%; 
+    box-sizing: border-box; 
+} 
+ 
+.main__projects { 
+    background: #34547A; 
+    display: flex; 
+    justify-content: center; 
+    height: 250PX; 
+    align-items: center; 
+} 
+ 
+.main__projects__all { 
+    display: flex; 
+    gap: 49px 
+} 
+ 
+.main__projects__all__object { 
+    display: flex; 
+} 
+ 
+.main__projects__all__object__p { 
+    margin-left: 20px; 
+} 
+ 
+.main__projects__all__object__p__text { 
+    color: #ffff; 
+} 
+ 
+.main__mySkills { 
+    display: flex; 
+    justify-content: center; 
+} 
+ 
+.main__mySkills__list { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+} 
+ 
+.main__mySkills__item__label { 
+    font-size: 16px; 
     margin-bottom: 8px; 
-}
-  
-.main__mySkills__item__bar {
-    width: 445px; 
-    height: 4px;
-    background-color: #e0e0e0;
-    border-radius: 2px;
-    overflow: hidden;
-    margin-bottom: 30px;
-}
-  
-.main__mySkills__item__bar__fill {
-    height: 100%;
-    background-color: #34547A;
-    width: 75%; 
-}
+    color: #727272; 
+    line-height: 26.25px;
+} 
+   
+.main__mySkills__item__bar { 
+    width: 445px;  
+    height: 4px; 
+    background-color: #e0e0e0; 
+    border-radius: 2px; 
+    overflow: hidden; 
+    margin-bottom: 30px; 
+} 
+   
+.main__mySkills__item__bar__fill { 
+    height: 100%; 
+    background-color: #34547A; 
+    width: 75%;  
+} 
+ 
+.main__mySkills__img { 
+    margin: 100px 0 100px 150px; 
+    width: 100%; 
+    max-width: 555px; 
+    height: auto; 
+} 
+ 
+.main__mySkills__img__portret { 
+    width: 100%; 
+    height: auto; 
+} 
+ 
+.main__video { 
+    background: #EEEFF1; 
+    height: 1005px; 
+    display: flex; 
+    align-items: center; 
+} 
+ 
+.main__video__title { 
+    max-width: 540px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 0 auto;  
+    text-align: center;  
+    margin-bottom: 40px;
+} 
+ 
+.main__video__player{ 
+    position: relative; 
+    display: inline-block; 
+} 
+ 
+.main__video__player__img { 
+    display: block; 
+    width: 100%; 
+    height: auto; 
+} 
+ 
+.main__video__player__play { 
+    position: absolute; 
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+    cursor: pointer; 
+} 
+ 
+.main__gallery__grid {  
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    margin: 25px 0 25px 0;
+} 
+ 
+.main__gallery__grid__item { 
+    flex-basis: 25%; 
+    position: relative; 
+    overflow: hidden; 
+} 
+ 
+.main__gallery__grid__item img { 
+    width: 100%; 
+    display: block; 
+} 
+ 
+.main__gallery__grid__item:hover .overlay { 
+    opacity: 1; 
+} 
+ 
+.main__form { 
+    background: #EEEFF1; 
+    height: 762PX; 
+    display: flex; 
+    align-items: center; 
+} 
+ 
+.main__form__title { 
+    max-width: 540px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 0 auto;  
+    text-align: center;  
+} 
+ 
+.main__forms__inputs { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 50px 0 50px 0; 
+} 
+ 
+.main__forms__twoInputs { 
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+} 
+ 
 
-.main__mySkills__img {
-    margin: 100px 0 100px 150px;
-    width: 100%;
-    max-width: 555px;
-    height: auto;
-}
-
-.main__mySkills__img__portret {
-    width: 100%;
-    height: auto;
-}
-
-.main__video {
-    background: #EEEFF1;
-    height: 1005px;
-    display: flex;
-    align-items: center;
-}
-
-.main__video__title {
-    max-width: 540px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto; 
-    text-align: center; 
-}
-
-.main__video__player{
-    padding-top: 57px;
-    position: relative;
-    display: inline-block;
-}
-
-.main__video__player__img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.main__video__player__play {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
-}
-
-.main__gallery__grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: start;
-    display: grid;
-}
-
-.main__gallery__grid__item {
-    position: relative;
-    overflow: hidden;
-}
-
-.main__gallery__grid__item img {
-    width: 100%;
-    display: block;
-}
-
-.main__gallery__grid__item:hover .overlay {
-    opacity: 1;
-}
-
-.main__form {
-    background: #EEEFF1;
-    height: 762PX;
-    display: flex;
-    align-items: center;
-}
-
-.main__form__title {
-    max-width: 540px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto; 
-    text-align: center; 
-}
-
-.main__forms__inputs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 50px 0 50px 0;
-}
-
-.main__forms__twoInputs {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
- /* media */
- @media (min-width: 320px) and (max-width: 1279px) {
-    .main__projects {
-        height: max-content;
-    }
-
-    .main__projects__all {
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-top: 75px;
-        padding-bottom: 75px;
-    }
-
-    .main__mySkills {
-        flex-direction: column-reverse;
-        align-items: center;
-        margin-bottom: 100px;
-        margin-left: 18px;
-        margin-right: 18px;
-    }
-
-    .main__mySkills__item__bar {
-       width: 338px;
-    
-    }
-
-    .main__mySkills__img {
-        margin: 0;
-        margin-top: 80px;
-    }
-
-    .main__mySkills__list {
-        align-items: center;
-    }
-
-    .main__video {
-        height: max-content;
+ @media (min-width: 320px) and (max-width: 1279px) { 
+    .main__projects { 
+        height: max-content; 
+    } 
+ 
+    .main__projects__all { 
+        flex-wrap: wrap; 
+        justify-content: center; 
+        padding-top: 75px; 
+        padding-bottom: 75px; 
+    } 
+ 
+    .main__mySkills { 
+        flex-direction: column-reverse; 
+        align-items: center; 
+        margin-bottom: 100px; 
+        margin-left: 18px; 
+        margin-right: 18px; 
+    } 
+ 
+    .main__mySkills__item__bar { 
+       width: 338px; 
+     
+    } 
+ 
+    .main__mySkills__img { 
+        margin: 0; 
+        margin-top: 80px; 
+    } 
+ 
+    .main__mySkills__list { 
+        align-items: center; 
+    } 
+ 
+    .main__video { 
+        height: max-content; 
         padding-top: 60px;
-        padding-bottom: 80px;
-    }
+        padding-bottom: 80px; 
+    } 
+ 
+    .main__video__player__play { 
+        width: 75px; 
+        height: 75px; 
+    } 
 
-    .main__video__player__play {
-        width: 75px;
-        height: 75px;
-    }
-
-    .main__gallery {
-     grid-template-columns: 1fr 1fr;
-    }
-
-    .main__forms__inputs {
-        flex-direction: column;
-    }
-
-    .main__forms__twoInputs {
-        flex-direction: column;
-        gap: 20px;
-    }
+ 
+    .main__forms__inputs { 
+        flex-direction: column; 
+    } 
+ 
+    .main__forms__twoInputs { 
+        flex-direction: column; 
+        gap: 20px; 
+    } 
+ 
+ 
+    .main__gallery__grid div:nth-child(1) { 
+    order: 0; 
+    } 
+ 
+    .main__gallery__grid div:nth-child(3) { 
+        order: 1; 
+        } 
+ 
+        .main__gallery__grid div:nth-child(4) { 
+            order: 1; 
+            } 
+             
+            .main__gallery__grid div:nth-child(7) { 
+                order: 3; 
+                } 
+ 
+                .main__gallery__grid div:nth-child(8) { 
+                    order: 3; 
+                    } 
+ 
+    .main__gallery__grid__item { 
+        flex-basis: 50%; 
+    } 
   }
-

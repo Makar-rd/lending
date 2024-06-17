@@ -34,7 +34,8 @@ body {
 
 .overlay__icon {
     width: 100px;
-    height: 100px;
+    height: 58px;
+    cursor: pointer;
 }
 
 p {
@@ -51,7 +52,15 @@ h1 {
 }
 
 h2 {
+    color: #000000;
     font-size: 32px;
+    line-height: 37.5px;
+}
+
+h3 {
+    font-size: 21px;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 input {
@@ -75,6 +84,7 @@ input::placeholder {
     box-sizing: border-box; 
     border: 0;
     outline: none;
+    resize: none;
 }
 
 #textarea::placeholder {
@@ -95,6 +105,11 @@ button {
     height: 55px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 
 @media (min-width: 320px) and (max-width: 1279px) {
     input {
@@ -105,5 +120,9 @@ button {
     #textarea {
         width: 342px;
         height: 175px;
+    }
+
+    .overlay {
+        display: none;
     }
 }

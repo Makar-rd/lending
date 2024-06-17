@@ -10,13 +10,11 @@
     height: 151px;
 }
 
-.footer__nameAndSocial__security__h3 {
-    font-size: 21px;
-}
-
 .footer__nameAndSocial__security__p {
     font-size: 13px;
     color: #ffff;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .footer__nameAndSocial__social {
@@ -24,10 +22,12 @@
     gap: 22px;
 }
 
-/* media */
+
 @media (min-width: 320px) and (max-width: 1279px) {
     .footer__nameAndSocial {
         flex-direction: column;
+        padding: 25px 0 25px 0;
+        justify-content: space-evenly;
     }
 
     .footer__nameAndSocial__security {
